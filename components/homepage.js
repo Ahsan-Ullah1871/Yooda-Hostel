@@ -234,7 +234,7 @@ const Homepage = () => {
 					<CustomLoading />
 				) : (
 					<>
-						{!foods.length > 0 ? (
+						{!foods?.length > 0 ? (
 							<div className="  w-full   ">
 								<div className="alert alert-warning    ">
 									<div className="flex-1">
